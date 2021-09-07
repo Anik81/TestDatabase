@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0d20c0691525481cabf947350aefcbff" Name="Diagram1">
+        <EntityTypeShape EntityType="review_techModel.Admin" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="review_techModel.Answer" Width="1.5" PointX="5.25" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="review_techModel.Category" Width="1.5" PointX="1.5" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="review_techModel.Comment" Width="1.5" PointX="3" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="review_techModel.Follower" Width="1.5" PointX="3" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="review_techModel.Issue" Width="1.5" PointX="6" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="review_techModel.Pending" Width="1.5" PointX="3" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="review_techModel.Product" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="review_techModel.Question" Width="1.5" PointX="3" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="review_techModel.Reply" Width="1.5" PointX="8.25" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="review_techModel.Review" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="review_techModel.User" Width="1.5" PointX="0.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="review_techModel.WishList" Width="1.5" PointX="6" PointY="8.625" IsExpanded="true" />
+        <AssociationConnector Association="review_techModel.FK__Answers__Questio__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="review_techModel.FK__Answers__UserID__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="review_techModel.FK__Products__Catego__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="review_techModel.FK__Comments__Review__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="review_techModel.FK__Comments__UserID__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="review_techModel.FK__Followers__UserI__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="review_techModel.FK__Issues__ProductI__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="review_techModel.FK__Issues__UserID__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="review_techModel.FK__Replies__IssueID__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="review_techModel.FK__Pendings__UserID__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="review_techModel.FK__Reviews__Product__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="review_techModel.FK__WishLists__Produ__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="review_techModel.FK__Questions__UserI__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="review_techModel.FK__Replies__UserID__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="review_techModel.FK__Reviews__UserID__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="review_techModel.FK__WishLists__UserI__4CA06362" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
